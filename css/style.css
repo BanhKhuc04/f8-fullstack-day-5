@@ -70,3 +70,50 @@ body {
     line-height: 1.4;
     margin-bottom: 3px;
 }
+/* menu */
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    cursor: pointer;
+}
+.menu > li {
+    color: white;
+    padding: 20px 25px;
+}
+
+nav {
+    background-color: #3e5cca;
+}
+.menu > li:first-child {
+    color: black;
+    background-color: white;
+}
+.has-dropdown {
+    position: relative;
+}
+.dropdown {
+    position: absolute;
+
+    top: 100%;
+    left: 0;
+
+    list-style: none;
+
+    background: white;
+
+    display: none;
+}
+.menu > li:hover {
+    background-color: white;
+    color: black;
+}
+.has-dropdown:hover .dropdown {
+    display: block;
+}
+.dropdown li {
+    color: black;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap;
+}
