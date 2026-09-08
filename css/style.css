@@ -117,3 +117,53 @@ nav {
     border-bottom: 1px solid #ddd;
     white-space: nowrap;
 }
+/* form */
+
+.form {
+    width: 700px;
+    min-height: 297mm;
+
+    background: white;
+
+    margin: 25px auto;
+
+    padding: 35px 55px;
+    border-radius: 25px;
+    border-top: 15px solid #3e5cca;
+}
+
+.form p {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.form input:not([type="checkbox"]):not([type="radio"]) {
+    width: 580px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 6px;
+}
+.form input[type="radio"],
+.form input[type="checkbox"] {
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.avatar-img {
+    border-radius: 50%;
+    width: 200px;
+    border: 5px solid #3e5cca;
+    cursor: pointer;
+}
+.form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #3e5cca;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
